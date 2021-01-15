@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neptune",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "date-and-time": "^0.14.1",
+    "discord.js": "^12.3.1",
+    "gamedig": "^2.0.23",
+    "hastebin": "^0.2.1",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.9.19",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.1",
+    "parse-ms": "^2.1.0",
+    "random-puppy": "^1.1.0",
+    "randomstring": "^1.1.5",
+    "salvage.db": "^1.1.3"
+  }
+}
