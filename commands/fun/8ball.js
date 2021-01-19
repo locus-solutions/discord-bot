@@ -8,15 +8,16 @@ module.exports = {
   run: async (client, message, args) => {
 // 'let responses' will allow the replies to the 8ball command cycled instead of 'yes, yes, yes, yes, yes' over and over.
       let responses = [
-        "Yes",
-        "No",
-        "Definitely",
-        "Absolutely",
-        "Not in a million years",
-        "Absolutely not",
-        "Fuck yea",
-        "Maybe",
-        "Try again",
+        "...nah",
+        "...sure",
+        "Without a doubt.",
+        "Nope, don't think that'd work",
+        "Yep, 100% (sarcasm, this is really stupid and the fact you asked this makes me think you're stupid.)",
+        "Not a single doubt in my mind when I say this is absolutely true.",
+        "Try again later, My robot-brain cannot process the retarded ass question you just asked.",
+        "Not in a million years.",
+        "No.",
+        "Yes."
       ];
       let response = responses[Math.floor(Math.random() * responses.length)];
       let Embed = new MessageEmbed()
